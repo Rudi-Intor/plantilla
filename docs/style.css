@@ -1,10 +1,26 @@
-h1{
-	text-align: center;
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #000000;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
 }
 
-#perfil{
-    color: rgb(22, 77, 102);
+
+
+h1{
+	text-align: center;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-align: center;
+
 }
+
+
+/*
 #foto{
     
     background-image: url("https://i.ibb.co/zHJ5SFRd/DSC-7628.png");
@@ -13,4 +29,25 @@ h1{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+}*/
+
+.backdrop {
+    -moz-box-shadow: 0px 6px 5px #111; 
+    -webkit-box-shadow: 0px 6px 5px #111; 
+    box-shadow: 0px 2px 10px #111; 
+    -moz-border-radius:190px; 
+    -webkit-border-radius:190px; 
+    border-radius:190px;
 }
+
+.linktree {
+	background-image: url("https://i.ibb.co/zHJ5SFRd/DSC-7628.png");
+	width: 120px;
+	height: 130px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    float: left;
+    margin-left: 80%;
+
+  }
