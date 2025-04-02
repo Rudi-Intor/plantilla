@@ -10,14 +10,21 @@ body {
 }
 
 
+#ss{
+    background-color: rgb(13, 64, 77);
+    font-weight: bold;
+    padding: 10px;
+	display: flex;
+	
+}
 
 h1{
 	text-align: center;
 	font-family: 'Open Sans';
 	font-weight: 300;
 	text-align: center;
-
 }
+
 
 
 /*
@@ -43,11 +50,11 @@ h1{
 .linktree {
 	background-image: url("https://i.ibb.co/zHJ5SFRd/DSC-7628.png");
 	width: 120px;
-	height: 130px;
+	height: 160px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-    float: left;
-    margin-left: 80%;
-
+	margin-left: 20px;
+	margin-right: 20px;
+	
   }
