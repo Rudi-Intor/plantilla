@@ -59,7 +59,7 @@ h1{
   }
 
 @media(max-width:500px){
-     p {
+     p , li{
         width: 330px;   
     }
 }
@@ -74,7 +74,13 @@ h1{
 
 @media(max-width:500px){
 	#cantacto {
-		width: 293px;
-		height: 148px;   
+		
+		font-size: 13px;
+		 
+   }
+}
+@media(max-width:500px){
+	#ss {
+		width: 99%;	 
    }
 }
