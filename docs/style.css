@@ -69,7 +69,8 @@ a{
 
 @media(max-width:500px){
      p , li{
-        width: 90%;   
+        width: 90%; 
+		font-size: 12px;  
     }
 }
 @media(max-width:500px){
@@ -95,5 +96,10 @@ a{
 @media(max-width:500px){
 	.linktree{
 		margin-right: -10px; 
+   }
+}
+@media(min-width:1000px){
+	p , li{
+		width: 1000px; 
    }
 }
