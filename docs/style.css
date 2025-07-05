@@ -1,8 +1,7 @@
 body {
 	width: 95%;
 	height: 100%;
-	margin-left: 50px;
-    margin-right: 50px;
+	/*margin-left: 50px; */
 	color: #000000;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 200% 400%;
@@ -11,24 +10,55 @@ body {
 	animation: Gradient 15s ease infinite;
 }
 
+h1{
+	text-align: center;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	
+}
+#distribucion{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	
+	height:90%;
+}
+
+.estilo{
+	display: flex;
+	justify-content: center;
+	margin-block-start: 15px;
+}
 #ss{
     background-color: rgb(13, 64, 77);
     font-weight: bold;
     padding: 10px;
 	display: flex;
-	align-items: center;
-	margin-right: 20px;
-}
-#contacto{
-	display: flex;
-	margin: 2px;
+	flex-direction: column;
+	/*margin-right: 20px;*/
+	width: 390px;
+    height: 1150px;
 }
 
-h1{
-	text-align: center;
-	font-family: 'Open Sans';
-	font-weight: 300;
-	text-align: center;
+#contacto{
+	display: flex;
+    flex-direction: column;
+	margin: 4%;
+}
+
+#linea{
+	width:30px;
+	height:3px;
+	
+}
+
+
+#contenido{
+	display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-block-start: 30px;
+	width: 1250px;
 }
 
 a{
@@ -97,9 +127,9 @@ a{
 	.linktree{
 		margin-right: -10px; 
    }
-}
+}/*
 @media(min-width:1000px){
 	p , li{
 		width: 1000px; 
    }
-}
+}*/
