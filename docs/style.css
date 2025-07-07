@@ -20,8 +20,6 @@ h1{
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
-	
-	height:90%;
 }
 
 .estilo{
@@ -36,21 +34,35 @@ h1{
 	display: flex;
 	flex-direction: column;
 	/*margin-right: 20px;*/
-	width: 390px;
+	width: 360px;
     height: 1150px;
 }
-
 #contacto{
 	display: flex;
     flex-direction: column;
 	margin: 4%;
+
 }
 
 #linea{
-	width:30px;
-	height:3px;
 	
+    height: 1px;
+    background-color: black;
+	margin-block-start: -2%;
+    
 }
+.con{
+	margin: 4%;
+	font-size: clamp(12px, 2vw, 15px);
+}
+
+.aptitudes{
+	display:flex;
+	flex-direction:column;
+	margin-left: -30px;
+	margin-block-start: -15px;
+}
+
 
 
 #contenido{
@@ -99,11 +111,12 @@ a{
 
 @media(max-width:500px){
      p , li{
-        width: 90%; 
-		font-size: 12px;  
+        width: 100%; 
+		 
+		font-size: clamp(6px, 2vw, 12px);
     }
 }
-@media(max-width:500px){
+@media(max-width:400px){
 	.linktree{
 		width: 90px;
         height: 120px;
@@ -112,14 +125,33 @@ a{
    }
 }
 
-@media(max-width:500px){
-	#contacto {
-		font-size: 12px; 
+@media(max-width:400px){
+	.con {
+		font-size: clamp(6px, 2vw, 12px);
    }
 }
-@media(max-width:500px){
+@media(max-width:400px){
 	#ss {
-		width: 90%;	 
+		width: 64%;	 
+		height: 780px;
+   }
+}
+
+@media(max-width:400px){
+	#contenido{
+		margin-left: 10px;
+	}
+}
+@media(max-width:400px){
+	#linea{ 
+		margin-block-start: -2px;
+		
+	}	 
+}    
+/*
+@media(max-width:400px){
+	#distribucion {
+		width: 30%;	 
    }
 }
 
@@ -127,7 +159,7 @@ a{
 	.linktree{
 		margin-right: -10px; 
    }
-}/*
+}
 @media(min-width:1000px){
 	p , li{
 		width: 1000px; 
