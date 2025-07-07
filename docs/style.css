@@ -53,7 +53,12 @@ h1{
 }
 .con{
 	margin: 4%;
-	font-size: clamp(12px, 2vw, 15px);
+	font-size: clamp(8px, 2vw, 15px);
+}
+.cursos{
+	margin: 4%;
+	padding-block-end: 10px;
+	font-size: clamp(8px, 2vw, 15px);
 }
 
 .aptitudes{
@@ -109,14 +114,14 @@ a{
 	
   }
 
-@media(max-width:500px){
-     p , li{
+@media(max-width:450px){
+     p , li , .titulos{
         width: 100%; 
 		 
 		font-size: clamp(6px, 2vw, 12px);
     }
 }
-@media(max-width:400px){
+@media(max-width:450px){
 	.linktree{
 		width: 90px;
         height: 120px;
@@ -125,24 +130,26 @@ a{
    }
 }
 
-@media(max-width:400px){
-	.con {
+@media(max-width:450px){
+	.con .cursos{
 		font-size: clamp(6px, 2vw, 12px);
    }
 }
-@media(max-width:400px){
+
+
+@media(max-width:450px){
 	#ss {
 		width: 64%;	 
 		height: 780px;
    }
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
 	#contenido{
 		margin-left: 10px;
 	}
 }
-@media(max-width:400px){
+@media(max-width:450px){
 	#linea{ 
 		margin-block-start: -2px;
 		
